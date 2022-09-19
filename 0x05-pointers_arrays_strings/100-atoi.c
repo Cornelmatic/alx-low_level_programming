@@ -28,10 +28,11 @@ int _atoi(char *str)
 			if (sign == 1)
 				return (INT_MAX);
 			else
-				return (INT_MIN)
+				return (INT_MIN);
 		}
 		base = 10 * base + (str[i++] - '0');
 	}
 
 	return (base * sign);
 }
+
